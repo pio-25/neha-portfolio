@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collaborative BIM — Federated Model</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/project.css" />
+    <link rel="stylesheet" href="../css/cinema.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="../index.html">Neha Nalavde</a>
+        <nav class="nav">
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <!-- Lightbox modal (hidden by default) -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <div class="lightbox-overlay" data-action="close"></div>
+      <div class="lightbox-inner">
+        <button class="lightbox-close" aria-label="Close" data-action="close">
+          ✕
+        </button>
+        <figure>
+          <img id="lightbox-img" src="" alt="" />
+          <figcaption id="lightbox-caption"></figcaption>
+        </figure>
+        <div class="thumbnail-container"></div>
+        <div class="zoom-controls">
+          <button class="zoom-in" aria-label="Zoom in">+</button>
+          <button class="zoom-out" aria-label="Zoom out">-</button>
+          <button class="zoom-reset" aria-label="Reset zoom">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">Collaborative BIM Project</h1>
+          <h4>Academic projects</h4>
+          <p class="summary">
+            Federated model creation (architectural, structural, MEP), clash
+            detection and coordination.
+          </p>
+          <p>Navisworks, Solibri, Autodesk Construction Cloud</p>
+
+          <div class="project-gallery">
+            <div class="image-item">
+              <img
+                src="../images/framework_clashdetection_NavisWorks,Solibri_autodesk_construction_cloud.png"
+                alt="framework_clashdetection_NavisWorks,Solibri,Autodesk"
+              />
+              <p class="centered-topic">
+                Framework followed for clash detection using NavisWorks, Solibri
+                and Autodesk Construction Cloud
+              </p>
+              <div class="image-info">
+                <h3>PROJECT OVERVIEW</h3>
+                <h3>Aim:</h3>
+                <p>
+                  The aim of this project is to develop a comprehensive
+                  federated BIM model by merging and appending architectural,
+                  structural, and MEP models of the same building using Autodesk
+                  NavisWorks and Solibri Office. The project will involve
+                  conducting thorough clash detection within the federated
+                  model, exploring the features and capabilities of both
+                  software applications, and documenting the process to
+                  understand the potential and limitations of clash detection in
+                  relation to design coordination and BIM collaborative
+                  workflows.
+                </p>
+              </div>
+            </div>
+
+            <div class="image-item">
+              <h3>1. NAVISWORKS</h3>
+              <img
+                src="../images/NavisWork_visual_clashdetection_framework.png"
+                alt="NavisWork_visual_clashdetection_framework"
+              />
+              <p class="centered-topic">
+                NavisWorks visual clash detection framework
+              </p>
+
+              <img
+                src="../images/NavisWorks_automated_clashdetection.png"
+                alt="NavisWorks_automated_clashdetection"
+              />
+              <p class="centered-topic">
+                NavisWorks automated clash detection framework
+              </p>
+
+              <div class="image-grid two-grid">
+                <div class="grid-item">
+                  <img
+                    src="../images/visual_clash.png"
+                    alt="visual_clash"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">Visual Clash</p>
+                </div>
+
+                <div class="grid-item">
+                  <img
+                    src="../images/automated_clash.png"
+                    alt="automated_clash"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">Automated Clash</p>
+                </div>
+
+                <div class="grid-item">
+                  <img
+                    src="../images/clash_between_same_discipline.png"
+                    alt="clash_between_same_discipline"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">Clash between same discipline</p>
+                </div>
+
+                <div class="grid-item">
+                  <img
+                    src="../images/clash_between_different_discipline.png"
+                    alt="clash_between_different_discipline"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">
+                    Clash between different discipline
+                  </p>
+                </div>
+              </div>
+
+              <img
+                src="../images/assigning_issues_responsibility.png"
+                alt="assigning_issues_responsibility"
+                class="grid-image"
+              />
+              <p class="centered-topic">Assigning issues and responsibility</p>
+
+              <img
+                src="../images/clash_analysis_report.png"
+                alt="clash_analysis_report"
+                class="grid-image"
+              />
+              <p class="centered-topic">Clash analysis report</p>
+
+              <h3>2. SOLIBRI</h3>
+              <img
+                src="../images/solibri_automated_clashdetection.png"
+                alt="solibri_automated_clashdetection"
+              />
+              <p class="centered-topic">
+                Solibri automated clash detection framework
+              </p>
+
+              <div class="image-grid two-grid">
+                <div class="grid-item">
+                  <img
+                    src="../images/clash_between_same_discipline2.png"
+                    alt="clash_between_same_discipline2"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">Clash between same discipline</p>
+                </div>
+
+                <div class="grid-item">
+                  <img
+                    src="../images/clash_between_different_discipline2.png"
+                    alt="clash_between_different_discipline2"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">
+                    Clash between different discipline
+                  </p>
+                </div>
+              </div>
+
+              <img
+                src="../images/assigning_issues_responsibility2.png"
+                alt="assigning_issues_responsibility2"
+                class="grid-image"
+              />
+              <p class="centered-topic">Assigning issues and responsibility</p>
+
+              <img
+                src="../images/clash_analysis_report2.png"
+                alt="clash_analysis_report2"
+                class="grid-image"
+              />
+              <p class="centered-topic">Clash analysis report</p>
+
+              <h3>3. AUTODESK CONSTRUCTION CLOUD</h3>
+              <img
+                src="../images/acc_automated_clashdetection.png"
+                alt="acc_automated_clashdetection"
+              />
+              <p class="centered-topic">ACC Automated Clash Detection</p>
+
+              <div class="image-grid two-grid">
+                <div class="grid-item">
+                  <img
+                    src="../images/clash_between_different_discipline3.png"
+                    alt="clash_between_different_discipline3"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">
+                    Clash between different discipline
+                  </p>
+                </div>
+
+                <div class="grid-item">
+                  <img
+                    src="../images/assigning_issues_responsibilty3.png"
+                    alt="assigning_issues_responsibilty3"
+                    class="grid-image"
+                  />
+                  <p class="centered-topic">
+                    Assigning issues and responsibility
+                  </p>
+                </div>
+              </div>
+
+              <img
+                src="../images/clash_analysis_report3.png"
+                alt="clash_analysis_report3"
+              />
+              <p class="centered-topic">Clash analysis report</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Neha Nalavde — BIM Portfolio</p>
+      </div>
+    </footer>
+
+    <script defer src="../js/project.js"></script>
+    <script defer src="../js/script.js"></script>
+  </body>
+</html>

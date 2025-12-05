@@ -1,0 +1,9 @@
+- [x] Add lightbox modal to html/architectural_design.html
+- [x] Add lightbox modal to html/bim_implementation.html
+- [x] Add lightbox modal to html/bim.html
+- [x] Add lightbox modal to html/collab_bim_project.html
+- [x] Add lightbox modal to html/msc_dissertation_project.html
+- [x] Add lightbox modal to html/thesis_project.html
+- [x] Modify js/script.js to add click handlers for images and zoom functionality
+- [x] Update css/style.css with zoom styles
+- [x] Test the popup and zoom on a project page
